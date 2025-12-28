@@ -14,7 +14,7 @@ RUN yarn build
 
 EXPOSE 3000
 
-CMD [ "npm", "start" ]
+CMD [ "yarn", "start" ]
 
 #docker build . -t img-next-baemin
 #docker run -d -p 3002:3000 --name cons-next-baemin img-next-baemin
